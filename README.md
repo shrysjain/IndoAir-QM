@@ -2,4 +2,14 @@
 
 <img src="./assets/Logo.png" align="right" alt="Logo by https://github.com/LilJuiceBox491" width="280" height="280">
 
-IndoAir QM is....
+## Project Description
+
+## Applications / Usefulness
+
+## Replication Dependencies
+
+## Presentation Report
+
+## Demonstration
+
+## Conclusion
