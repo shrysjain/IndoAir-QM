@@ -406,3 +406,17 @@ For information about the project and the device creation journey, please read t
 
 ## Conclusion
 Overall, this project was very fun and I learnt a lot. The final device worked well and even helped me adjust the environment in my very own rooms, and everything turned out to be very accurate and helpful. I hope to continue working on this project and add new features such as a gas trend detecting system and a 3D-printable casing for the device in the future. Along with working on my project, I had a lot of fun helping many others with their projects and the issues they faced.
+
+## Feedback
+If you would like to give me feedback for this project, you can do one of the following options:
+- Message me on Discord at `LilJuiceBox491#3256`
+- Find me on YouTube at `LilJuiceBox491`
+
+Or, if you want to try something fun, I created a Discord webhook that anyone can use to experiment a feedback system. Here are the steps on using the webhook to send me feedback:
+1. Open a Discord webhook tester such as this one: https://lew.la/webhook
+2. For the webhook URL, paste in: `https://discord.com/api/webhooks/1004816241401266216/l96fy7yVPDDqkU5a6au5y8fl6-ShkId2EyIxUHRlbg6VwW1ZHZL240lbFr0YJ3-FvHAI`
+3. For the message, you can type out your feedback! Please give me honest feedback. If you want, you can include a name, but otherwise it will be completely anonymous, and I will just randomly have the message pop up instantly in my Discord server. If you want me to see it quicker, add this somewhere in your message and it will ping me: `<@742767675146633237>`
+
+Please do **not** use this to spam or troll, as I only want genuine feedback and to try out an experiment.
+
+With that, that is the end of the report. Thank you for reading, and I hope you enjoyed it!
