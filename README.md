@@ -400,7 +400,7 @@ One more thing, when installing `pyserial` with `conda install pyserial`, it wil
 With that, the device should be fully setup and ready to go!
 
 ## Presentation
-For information about the project and the device creation journey, please read through the presentation located [here](https://docs.google.com/presentation/d/1w7gI2e2EuELESHTuLNf1z_Qsl5Gs2N236A_orpxagPE/edit?usp=sharing). It will also contain a demonstration of the device.
+For information about the project and the device creation journey, please read through the presentation located [here](https://docs.google.com/presentation/d/1w7gI2e2EuELESHTuLNf1z_Qsl5Gs2N236A_orpxagPE/edit?usp=sharing). It will also contain a demonstration of the device. The demonstration video is located [here](https://youtu.be/lgFTrhk8beY) if you are unable to open it.
 
 ## Conclusion
 Overall, this project was very fun and I learnt a lot. The final device worked well and even helped me adjust the environment in my very own rooms, and everything turned out to be very accurate and helpful. I hope to continue working on this project and add new features such as a gas trend detecting system and a 3D-printable casing for the device in the future. Along with working on my project, I had a lot of fun helping many others with their projects and the issues they faced.
