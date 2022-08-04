@@ -348,28 +348,28 @@ while True:
 
         # Value "string" is the now the AQissue
 
-        if string == "No Issue with Air Quality":
+        if string.startswith("No Issue with Air Quality"):
             issueFix = "N/A"
             isIssue = False
-        elif string == "Too Cold and Too Humid":
+        elif string.startswith("Too Cold and Too Humid"):
             issueFix = "Use a heater or air conditioner to heaten the area and bring down the humidity"
             isIssue = True
-        elif string == "Too Cold":
+        elif string.startswith("Too Cold"):
             issueFix = "Use a heater or turn off AC/fans/anything cooling the area"
             isIssue = True
-        elif string == "Too Hot and Too Humid":
+        elif string.startswith("Too Hot and Too Humid"):
             issueFix = "Use an air conditioner to dry out the air and circulate cold air"
             isIssue = True
         elif string.startswith("Too Hot"):
             issueFix = "Use AC/fans to circulate more cold air"
             isIssue = True
-        elif string == "Too Humid":
+        elif string.startswith("Too Humid"):
             issueFix = "Run a heater or air conditioner which will dry out the air in your area"
             isIssue = True
-        elif string == "Not Humid Enough":
+        elif string.startswith("Not Humid Enough"):
             issueFix = "Use a vaporizer, steam machine, or humidifier to raise humidity and moisture"
             isIssue = True
-        elif string == "Too Cold and Not Humid Enough":
+        elif string.startswith("Too Cold and Not Humid Enough"):
             issueFix = "Use humidifers/heaters or try to tackle the issues one-by-one"
             isIssue = True
         else:
