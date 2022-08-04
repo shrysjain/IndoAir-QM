@@ -306,7 +306,7 @@ void errLeds(void) {
 ```
 </details>
 
-The code can also be downloaded from within this GitHub repository.
+The code can also be downloaded from within this GitHub repository in the `Code Files/` folder.
 
 Upload this to the Arduino device (which must have a QWIIC connect circuit of `ESP32 Thing Plus > BME688 > Micro OLED Breakout` where `>` is a QWIIC connect cable).
 
@@ -326,7 +326,7 @@ cd Downloads
 python COMextract.py
 ```
 
-Before running this, make sure that you create a file called `COMextract.py` in the `Downloads\` folder on your PC, and its contents are the code in the dropdown below. Alternatively, you can download the file from this GitHub repository (but remember to move it to your `Downloads/` folder). If you want to move it to another folder, reflect that in the `cd ...` line. For example, if you want to put it in a folder within your `Desktop/` folder called `Arduino`, you would replace that line with `cd Desktop/Arduino`. Here is the code to include in `COMextract.py`:
+Before running this, make sure that you create a file called `COMextract.py` in the `Downloads\` folder on your PC, and its contents are the code in the dropdown below. Alternatively, you can download the file from this GitHub repository in the `Code Files/` (but remember to move it to your `Downloads/` folder). If you want to move it to another folder, reflect that in the `cd ...` line. For example, if you want to put it in a folder within your `Desktop/` folder called `Arduino`, you would replace that line with `cd Desktop/Arduino`. Here is the code to include in `COMextract.py`:
 
 <details><summary>Expand to see code</summary>
 
@@ -390,6 +390,8 @@ while True:
 ser.close()
 ```
 </details>
+
+(You may have to adjust the COM port in the code based off of what COM port your Arduino is running on)
 
 **IMPORTANT:** You must create a webhook in a Discord channel of some server by going to `Channel Settings > Integrations > Webhooks` and create a webhook. Copy the webhook URL, and in the Python code on line 49, replace "Discord Webhook URL" with the webhook URL, which will look something similar to this URL: `https://discord.com/api/webhooks/1004349023488278548/W9ddoCTbzLq3EhHsab8ibk5ISfvj43XLm96dCmCixxw3BnXTb1VF6Q4T4CSBP6FtbD4E` 
 
